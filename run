@@ -4,8 +4,8 @@ set -e
 set -u
 
 function clean {
-    rm main
-    rm main.o
+    rm -f main
+    rm -f main.o
 }
 
 clean
