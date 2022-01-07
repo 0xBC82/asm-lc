@@ -1,4 +1,7 @@
-#!/user/bin/env bash
+#!/usr/bin/env bash
+
+set -e
+set -u
 
 function clean {
     rm main
